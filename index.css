@@ -80,9 +80,7 @@
 
 /* CSS to style the fullscreen image */
 .fullscreen-image {
-    
-   
-    object-fit: cover; /* Ensure the image covers the entire viewport */
+    width: 80%;
     z-index: 9999; /* Ensure the image appears on top of other content */
 }
 

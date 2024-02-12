@@ -77,3 +77,36 @@
     border-radius: 10px;
     transition: bottom 0.5s ease-out; /* Smooth transition for sliding effect */
 }
+
+/* CSS to style the fullscreen image */
+.fullscreen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    object-fit: cover; /* Ensure the image covers the entire viewport */
+    z-index: 9999; /* Ensure the image appears on top of other content */
+}
+
+/* CSS to style the image overlay */
+.image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 9998; /* Ensure the overlay is behind the image */
+    display: none; /* Initially hide the overlay */
+}
+
+/* CSS to style the centered image container */
+.image-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Ensure the image container is on top */
+    display: none; /* Initially hide the image container */
+}

@@ -12,18 +12,9 @@ document.getElementById("no").addEventListener("click", () => {
 
 
 document.getElementById("yes").addEventListener("click", function() {
-    // Create an iframe element to embed the YouTube video
-    var videoContainer = document.getElementById("videoContainer");
-    var iframe = document.createElement("iframe");
-    iframe.setAttribute("width", "400");
-    iframe.setAttribute("height", "315");
-    iframe.setAttribute("src", "https://youtu.be/WFLGrpGemLg?si=YqY0KJatGUW7A0yb");
-    iframe.setAttribute("frameborder", "0");
-    iframe.setAttribute("allowfullscreen", true);
-    
-    // Clear any existing content in the video container
-    videoContainer.innerHTML = "";
-    
-    // Append the iframe to the video container
-    videoContainer.appendChild(iframe);
+    // Show the image overlay
+    document.querySelector(".image-overlay").style.display = "block";
+    // Show the centered image container
+    document.querySelector(".image-container").style.display = "block";
 });
+

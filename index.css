@@ -84,7 +84,7 @@
     top: 0;
     left: 0;
     width: 80vw;
-    height: 100vh;
+    height: 80vh;
     object-fit: cover; /* Ensure the image covers the entire viewport */
     z-index: 9999; /* Ensure the image appears on top of other content */
 }
@@ -95,7 +95,7 @@
     top: 0;
     left: 0;
     width: 80vw;
-    height: 100vh;
+    height: 80vh;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
     z-index: 9998; /* Ensure the overlay is behind the image */
     display: none; /* Initially hide the overlay */

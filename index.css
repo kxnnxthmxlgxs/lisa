@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#85121C, #D13943);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.question{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.question h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.letter{
+    height: 400px;
+    width: 80%;
+    background: url(assets/envelope.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.buttons{
+    width: 60%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#yes{
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#no{
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
